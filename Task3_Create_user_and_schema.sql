@@ -5,7 +5,6 @@ CREATE LOGIN semenchenko
 WITH PASSWORD = 'Qwerty456';
 
 CREATE USER t_semenchenko FOR LOGIN semenchenko 
-WITH default_schema = [semenchenko_schema]
-
+WITH DEFAULT_SCHEMA = [semenchenko_schema]
 
 EXEC sp_addrolemember 'db_owner', 't_semenchenko';
