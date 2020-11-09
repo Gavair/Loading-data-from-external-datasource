@@ -1,5 +1,3 @@
--- Я зробив таблиці-довідники replicate distributed, оскільки вони найчастіше будуть використовуватися з join операціями
-
 CREATE TABLE semenchenko_schema.Vendor (ID INT, Name VARCHAR(50)) WITH (
     DISTRIBUTION = REPLICATE
 )
