@@ -1,4 +1,4 @@
--- Додає значення рядків, які є в таблиці, але немає в pdf файлі
+-- Adds the values of rows that are in the table but not in the pdf file
 
 INSERT INTO semenchenko_schema.Vendor
 SELECT f.VendorID AS ID, v.Name
